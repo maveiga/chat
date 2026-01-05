@@ -1,0 +1,26 @@
+# Framework Web
+fastapi>=0.109.0,<0.111.0
+uvicorn[standard]>=0.27.0,<0.30.0
+
+# Banco de Dados
+sqlalchemy>=2.0.25,<2.1.0
+
+# Validação e Configuração
+pydantic>=2.5.3,<3.0.0
+python-dotenv>=1.0.0,<2.0.0
+
+# Dados Fictícios
+faker>=22.6.0,<24.0.0
+
+# LangChain (Agente Conversacional)
+langchain>=0.1.0,<0.2.0
+langchain-openai>=0.0.5,<0.1.0
+langchain-community>=0.0.16,<0.1.0
+openai>=1.10.0,<2.0.0
+
+# HTTP Client
+httpx>=0.26.0,<0.28.0
+
+# Testes
+pytest>=7.4.4,<8.0.0
+pytest-asyncio>=0.23.3,<0.24.0
